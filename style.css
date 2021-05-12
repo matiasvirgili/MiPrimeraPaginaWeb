@@ -376,7 +376,6 @@
     .contenedor-column {
         display: flex;
         align-items: center;
-        justify-content: space-around;
         background: #fff url(img/bg04.png);
     }
     
@@ -441,6 +440,42 @@
     }
     
     .contenedor2 h3 {
+        color: #96a9b5;
+        font-size: 1.25em;
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 300;
+        padding-top: 0;
+    }
+    /* Pagina One Column */
+    
+    .columna-one {
+        display: flex;
+        flex-direction: column;
+        margin: 4vh 14vw;
+        background-color: #fff;
+        padding: 40px 30px;
+        box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
+    }
+    
+    .columna-one p {
+        color: #474f51;
+        font-size: 13.5pt;
+        font-family: 'Yanone Kaffeesatz';
+        line-height: 1.85em;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+    .columna-one h2 {
+        font-size: 1.8em;
+        color: #373f42;
+        margin: 0 0 0.25em 0;
+        font-family: 'Yanone Kaffeesatz';
+        line-height: 1.85em;
+        font-weight: 300;
+    }
+    
+    .columna-one h3 {
         color: #96a9b5;
         font-size: 1.25em;
         font-family: 'Yanone Kaffeesatz';
